@@ -1,0 +1,84 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    border: 3px solid #b71236;
+}
+.st {
+    background-color: white;
+    padding: 2em;
+}
+.nd {
+    background-color: #e0e0e0;
+    padding: 2em;
+}
+.th {
+    background-color: #fcfcea;
+    max-width: 60em;
+    margin: 0 auto;
+}
+hr {
+    margin-top: 20px;
+}
+h2 {
+    font-style: italic;
+    font-family: serif;
+}
+div a {
+    color: #c7ccbd;
+}
+p {
+    font-size: 18px;
+}
+p span {
+    font-style: italic;
+}
+header {
+    color: #fcfcea;
+    background-color: #b71236;
+    padding: 10px;
+    text-align: center;
+    font-family: serif;
+    text-transform: uppercase;
+}
+main {
+    padding: 0 25px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 460px;
+    padding: 15px 10px;
+    gap: 10px;
+}
+.card > div:last-of-type {
+    font-style: italic;
+}
+img {
+    width: 100%;
+}
+section:last-of-type p {
+    padding-left: 30px;
+}
+footer {
+    border-left: 20px solid #c7ccbd;
+    border-right: 20px solid #c7ccbd;
+    padding: 20px;
+    background-color: white;
+    margin-top: -8px;
+    text-align: end;
+}
+footer p,
+footer span {
+    font-size: 14px;
+}
+footer p {
+    margin-top: 0;
+}
